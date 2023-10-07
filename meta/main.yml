@@ -1,0 +1,20 @@
+galaxy_info:
+  author: Gerrit Scherpenzeel
+  description: This role installs docker on a Debian system
+  license: license (GPL-2.0-or-later, MIT, etc)
+
+  min_ansible_version: 2.1
+
+  platforms:
+  - name: Debian
+     versions:
+     - 12
+     - 11
+     - 10
+
+  galaxy_tags:
+    - docker
+    - debian
+
+dependencies: []
+
